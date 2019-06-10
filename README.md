@@ -5,7 +5,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 ## Setup
 
-To have a look at the app and play around with it, you can visit it here: `https://call900913.github.io/fend-rchristy-project4`.
+To have a look at the app and play around with it, you can visit it here: [https://call900913.github.io/fend-rchristy-project4](https://call900913.github.io/fend-rchristy-project4).
 
 Click on the menu hamburger icon on the top left to navigate to the RSS feed that might be of interest to you.
 
