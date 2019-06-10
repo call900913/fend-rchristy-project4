@@ -9,7 +9,7 @@ To have a look at the app and play around with it, you can visit it here: [https
 
 Click on the menu hamburger icon on the top left to navigate to the RSS feed that might be of interest to you.
 
-Alternatively, to download the project into your machine and run it locally, you can click on the green `Clone or download` button here: `https://github.com/call900913/fend-rchristy-project4`.
+Alternatively, to download the project into your machine and run it locally, you can click on the green `Clone or download` button here: [https://github.com/call900913/fend-rchristy-project4](https://github.com/call900913/fend-rchristy-project4).
 
 From the Command Line, navigate to the project's root directory and open the `index.html` file.
 On a Mac, one of the ways you can do that is by simply typing `open -a 'Firefox' index.html` while in that root directory. You can substitute `Firefox` with the name of your favorite browser.  
@@ -18,7 +18,7 @@ On a Mac, one of the ways you can do that is by simply typing `open -a 'Firefox'
 ## The RSS Feed Reader App
 
 To have a look into the code of the app,
-1. Click on the green `Clone or download` button here: `https://github.com/call900913/fend-rchristy-project4`.
+1. Click on the green `Clone or download` button here: [https://github.com/call900913/fend-rchristy-project4](https://github.com/call900913/fend-rchristy-project4).
 
 2. Navigate to the project root directory from the Command Line and open it with your favorite text editor.
 
@@ -27,7 +27,7 @@ To have a look into the code of the app,
 
 ## The Test and Its Results
 
-Once you open the `index.html` file (you can visit that here: `https://call900913.github.io/fend-rchristy-project4`), if you scroll down to the bottom of the page, you can find a number of specs and their test results. It should indicate 0 failures by means of all the green dots it displays.
+Once you open the `index.html` file (you can visit that here: [https://call900913.github.io/fend-rchristy-project4](https://call900913.github.io/fend-rchristy-project4)), if you scroll down to the bottom of the page, you can find a number of specs and their test results. It should indicate 0 failures by means of all the green dots it displays.
 
 
 ## The Test and the Spec
