@@ -103,20 +103,22 @@ $(function() {
 
 
     describe('New Feed Selection', function() {
-      var list1 = document.querySelector('.feed').querySelectorAll('.entry-link');
+      var list1, list2;
 
       /* This is a test that ensures when a new feed is loaded
        * by the loadFeed function that the content actually changes.
        * loadFeed() is asynchronous.
        */
       beforeEach(function(done) {
+        // loadFeed(1, loadFeed(2, done));
         loadFeed(1, function() {
-          done();
+          list1 = document.querySelector('.feed').querySelectorAll('.entry-link');
+          loadFeed(2, done);
         });
       });
 
        it('should have different content', function(done) {
-         var list2 = document.querySelector('.feed').querySelectorAll('.entry-link');
+         list2 = document.querySelector('.feed').querySelectorAll('.entry-link');
          expect(list2).not.toBe(list1);
          done();
        });
