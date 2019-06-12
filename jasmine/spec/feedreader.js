@@ -51,7 +51,6 @@ $(function() {
 
     describe('The menu', function() {
       var body = document.querySelector('body');
-      var bool3an = false;
 
       /* This is a test that ensures the menu element is
        * hidden by default. You'll have to analyze the HTML and
@@ -89,9 +88,7 @@ $(function() {
        * the use of Jasmine's beforeEach and asynchronous done() function.
        */
       beforeEach(function(done) {
-        loadFeed(0, function() {
-          done();
-        });
+        loadFeed(0, done);
       });
 
       it('should have non-empty feed container', function(done) {
